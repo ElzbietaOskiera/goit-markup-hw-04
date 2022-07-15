@@ -40,7 +40,7 @@ body {
 .header {
   height: 80px;
   border-bottom: 1px solid #ececec;
-  background-color: var(--white-color);
+  background-color: var(--white-text);
 }
 
 .header svg {
@@ -114,58 +114,107 @@ body {
   color: var(--blue-color);
 }
 
-.footer-navigation {
-  padding-left: 30px;
-  padding-bottom: 60px;
-  background-color: var(--background-color);
+
+.footer {
+  height: 252px;
+  background: #2f303a;
 }
 
-.contact {
+.footercontent {
+  display: flex;
+}
+
+.footer-logo-item {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--blue-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-span {
+  color: var(--white-text);
+}
+
+.footer-address {
   font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
 }
 
-.contact a {
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--contacts-header-color);
-    display: block;
-    padding-top: 9px;
+.footer-address-item {
+  padding-bottom: 9px;
+  padding-left: 15px;
 }
 
-.footer-navigation address {
-    color: #ffffff;
-    font-size: 14px;
+.footer-email {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.navigation-name {
-    font-family: "Raleway";
-    color: var(--blue-color);
-    font-weight: 700;
-    font-size: 26px;
+.footer-email-item {
+  padding-bottom: 9px;
+  padding-left: 15px;
 }
 
-.navigation-color {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    color: #ffffff;
+.footer-phone {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 15px;
 }
 
-.navigation-footer-header {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 26px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+.footer-socialmedia {
+  padding-top: 72px;
+  padding-left: 70px;
 }
 
-
-.address {
-    font-style: normal;
+.footer-socialmedia-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text);
+  margin: 0;
 }
 
+.footer-socialmedia-items {
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
 
+.footer-socialmedia-item {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: var(--white-text);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-socialmedia-item:hover,
+.footer-socialmedia-item:focus {
+  background: var(--blue-color);
+  cursor: pointer;
+}
 
 
 /*agencja,portfolio,kontakt - header*/
@@ -396,7 +445,7 @@ body {
 
 .team-socialmedia-item:hover,
 .team-socialmedia-item:focus {
-  fill: var(--white-color);
+  fill: var(--white-text);
   background-color: var(--blue-color);
   cursor: pointer;
 }
