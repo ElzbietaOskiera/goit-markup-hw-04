@@ -29,6 +29,7 @@ body {
   width: 1600px;
 }
 
+
 .center{
   margin-left: auto;
   margin-right: auto;}
@@ -53,7 +54,6 @@ body {
   letter-spacing: 0.03em;
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-left: 15px;
 }
 
 .logo-span {
@@ -76,7 +76,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-color);
-  text-decoration: none;
   letter-spacing: 0.02em;
 }
 
@@ -85,7 +84,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-color);
-  text-decoration: none;
   letter-spacing: 0.02em;
 }
 
@@ -111,7 +109,6 @@ body {
   font-size: 14px;
   line-height: 1.1;
   color: var(--contacts-header-color);
-  text-decoration: none;
   letter-spacing: 0.02em;
 }
 
@@ -123,7 +120,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  text-decoration: none;
   color: var(--contacts-header-color);
   letter-spacing: 0.02em;
 }
