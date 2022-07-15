@@ -43,6 +43,10 @@ body {
   background-color: var(--white-color);
 }
 
+.header svg {
+  margin-right: 10px;
+}
+
 .navigation-menu {
   display: flex;
   gap: 46px;
@@ -254,6 +258,15 @@ body {
 }
 
 /* Lorem ipsum text */
+.desc-svg-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 
 .first-section {
     padding-top: 94px;
@@ -337,17 +350,54 @@ body {
   padding: 30px ;}
 
 .name {
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-header-color);
+  text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;}
+  margin: 0;}
 
 .what-do {
-  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 16px;
   color: #757575;;
 }
 
+.team-socialmedia {
+  padding-bottom: 30px;
+}
 
+.team-socialmedia-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.team-socialmedia-item {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.team-socialmedia-item:hover,
+.team-socialmedia-item:focus {
+  fill: var(--white-color);
+  background-color: var(--blue-color);
+  cursor: pointer;
+}
 /*buttons on top - portfolio page*/
 
 .button-list {
