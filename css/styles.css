@@ -147,7 +147,9 @@ body {
 
 
 .footer {
-  height: 252px;
+padding-left: 30px;
+  padding-bottom: 60px;
+
   background: #2f303a;
 }
 
