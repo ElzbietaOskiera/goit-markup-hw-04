@@ -33,6 +33,7 @@ body {
   margin-left: auto;
   margin-right: auto;}
 
+
 .header-flex {
   display: flex;
 }
@@ -449,6 +450,48 @@ body {
   background-color: var(--blue-color);
   cursor: pointer;
 }
+
+/*customers*/
+
+.customers {
+  padding: 94px 0px 94px 0px;
+  background-color: var(--white-text);
+}
+
+.cust-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #212121;
+}
+
+.cust-list-items {
+  display: flex;
+}
+
+.cust-list-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  margin: 0 15px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.cust-list-item:hover,
+.cust-list-item:focus {
+  fill: var(--blue-color);
+  border-color: var(--blue-color);
+  cursor: pointer;
+}
+
 /*buttons on top - portfolio page*/
 
 .button-list {
