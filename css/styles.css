@@ -36,7 +36,6 @@ body {
 
 
 .header {
-  height: 80px;
   border-bottom: 1px solid #ececec;
   background-color: var(--white-text);
 }
@@ -429,7 +428,8 @@ body {
   border-bottom-right-radius: 4px;
 }
 
-.pictures figcaption {text-align: center;
+.pictures figcaption {
+  text-align: center;
   padding: 30px ;}
 
 .name {
