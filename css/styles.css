@@ -88,28 +88,45 @@ body {
   font-weight: 500;
 }
 
-.contact-links-header a {
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--contacts-header-color);
+.list {
+  margin: 0;
+  padding: 0;
 }
 
-.contact-links-header {
+.contact-list {
+  display: flex;
+  padding-left: 345px;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--contacts-header-color);
-  padding-left: 371px;
-  gap: 50px;
+  gap: 30px;
 }
 
+.email-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--contacts-header-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.header svg {
+  margin-right: 10px;
+}
+
+.phone-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: var(--contacts-header-color);
+  letter-spacing: 0.02em;
+}
 
 .navigation a:focus,
 .navigation a:hover,
-.contact-links-header a:focus,
-.contact-links-header a:hover,
+.contact-list a:focus,
+.contact-list a:hover,
 .footer-navigation a:focus,
 .footer-navigation a:hover {
   color: var(--blue-color);
