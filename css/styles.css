@@ -35,6 +35,8 @@ body {
   margin-right: auto;}
 
 
+/*header*/
+
 .header {
   border-bottom: 1px solid #ececec;
   background-color: var(--white-text);
@@ -144,12 +146,11 @@ body {
   fill: var(--blue-color);
 }
 
-
+/*footer*/
 
 .footer {
-padding-left: 30px;
+  padding-left: 30px;
   padding-bottom: 60px;
-
   background: #2f303a;
 }
 
