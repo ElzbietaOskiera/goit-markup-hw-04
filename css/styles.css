@@ -104,9 +104,7 @@ body {
 
 
 .contact {
-    color: var(--grey);
-    text-decoration: none;
-    font-style: normal;
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1, 142em;
