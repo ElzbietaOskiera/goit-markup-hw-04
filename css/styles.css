@@ -267,6 +267,9 @@ body {
 .footer-socialmedia-link{fill: var(--white-text);}
 .footer-socialmedia-link:hover{background: var(--blue-color)}
 
+.footer-socialmedia-icon{padding: 12px;
+  fill: #fff;}
+
 
 /*agencja,portfolio,kontakt - header*/
 
