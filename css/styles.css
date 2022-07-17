@@ -70,6 +70,9 @@ body {
   padding-left: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-list {
