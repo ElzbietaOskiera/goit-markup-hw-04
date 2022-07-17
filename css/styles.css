@@ -352,7 +352,6 @@ body {
   align-items: center;
   background: #f5f4fa;
   border-radius: 4px;
-  padding-bottom: 30px;
 }
 
 .first-section {
@@ -364,6 +363,7 @@ body {
     gap: 30px;
     align-items: center;
     margin: auto;
+    padding-top: 30px;
 }
 
 .descripion-title {
@@ -486,9 +486,8 @@ body {
   fill: var(--white-text);
   background-color: var(--blue-color);
   cursor: pointer;
+  text-decoration: none;
 }
-.team-socialmedia-item a
-{text-decoration: none;}
 
 /*customers*/
 
