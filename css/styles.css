@@ -105,10 +105,6 @@ body {
   gap: 30px;
 }
 
-.nav_icon {
-  display: flex;
-  align-items: center;
-}
 
 .email-header {
   font-weight: 500;
@@ -119,7 +115,9 @@ body {
 }
 
 .header svg {
+  display: flex;
   margin-right: 10px;
+  align-items: center;
 }
 
 .phone-header {
