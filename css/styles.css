@@ -479,9 +479,7 @@ font-weight: 700;
   color: #757575;;
 }
 
-.team-socialmedia {
-  padding-bottom: 30px;
-}
+/*
 
 .team-socialmedia-items {
   display: flex;
@@ -507,13 +505,38 @@ font-weight: 700;
   background-color: var(--blue-color);
   cursor: pointer;
 }
+*/
 
-.team-list-social-link {
+.team-socialmedia-items {
+  list-style: none;
+  display: flex;
+  width: 206px;
+  padding-top: 16px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.team-socialmedia-links {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
 }
+
+.team-socialmedia-icon {
+  padding: 12px;
+  fill: var(--grey-icon);
+}
+
+.team-socialmedia-links:hover,
+.team-socialmedia-links:focus {
+  background: var(--blue-color);
+  border-radius: 50%;
+}
+
+.team-socialmedia-icon:hover {
+  fill: #fff;
+}
+
 
 /*customers*/
 
