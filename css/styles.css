@@ -108,15 +108,12 @@ body {
 
 
 .contact {
-    color: #757575;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 142em;
-    letter-spacing: 0.02em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--mediumgrey-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .icon {
