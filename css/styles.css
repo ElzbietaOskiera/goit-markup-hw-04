@@ -106,11 +106,7 @@ body {
 }
 
 
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.email-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -119,8 +115,19 @@ body {
 }
 
 
-.contact:hover,
-.contact:focus,
+.phone-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #757575;
+  letter-spacing: 0.02em;
+}
+
+
+.email-header:hover,
+.email-header:focus,
+.phone-header:hover,
+.phone-header:focus,
 .agency-link:hover,
 .agency-link:focus,
 .contact-link:hover,
