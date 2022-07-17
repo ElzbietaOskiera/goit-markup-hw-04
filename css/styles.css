@@ -367,11 +367,16 @@ body {
 }
 
 .descripion-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    padding-bottom: 10px;
-    padding-top: 30px;
+font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-top: 30px;
+  
+  padding-bottom: 10px;
+   
 }
 
 .description-text {
