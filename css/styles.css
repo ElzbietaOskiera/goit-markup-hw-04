@@ -497,7 +497,11 @@ font-weight: 700;
   cursor: pointer;
 }
 
-.socialmedia-link a {text-decoration: none;}
+.team-list-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*customers*/
 
