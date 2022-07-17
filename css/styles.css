@@ -129,8 +129,6 @@ body {
 }
 
 
-
-
 .email-header:hover,
 .email-header:focus,
 .phone-header:hover,
@@ -153,11 +151,9 @@ body {
 
 .icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+    width: 10px;
+    height: 16px;
+
 }
 
 /*footer*/
@@ -562,7 +558,7 @@ font-weight: 700;
   cursor: pointer;
 }
 
-.cust-list-link{;
+.cust-list-link{
   border-radius: 4px;
   fill: #afb1b8;}
 .cust-list-link:hover{fill: var(--blue-color);}
