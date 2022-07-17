@@ -559,7 +559,7 @@ font-weight: 700;
 }
 
 .cust-list-link{fill: #afb1b8;}
-.cust-list-item:hover{fill: var(--blue-color);}
+.cust-list-link:hover{fill: var(--blue-color);}
 
 /*buttons on top - portfolio page*/
 
