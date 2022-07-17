@@ -115,7 +115,7 @@ body {
 }
 
 .header svg {
-  display: flex;
+  position: absolute;
   margin-right: 10px;
   align-items: center;
 }
