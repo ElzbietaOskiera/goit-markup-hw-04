@@ -151,6 +151,15 @@ body {
   fill: var(--blue-color);
 }
 
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
 /*footer*/
 
 .footer {
@@ -492,8 +501,8 @@ font-weight: 700;
   fill: #afb1b8;
 }
 
-.team-socialmedia-item a:hover,
-.team-socialmedia-item a:focus {
+.team-socialmedia-item:hover,
+.team-socialmedia-item:focus {
   fill: var(--white-text);
   background-color: var(--blue-color);
   cursor: pointer;
