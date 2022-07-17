@@ -106,28 +106,23 @@ body {
 }
 
 
-.email-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: #757575;
-  letter-spacing: 0.02em;
-}
+.contact{color: #757575;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142em;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
 
 
-.phone-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: #757575;
-  letter-spacing: 0.02em;
-}
-
-
-.email-header:hover,
-.email-header:focus,
-.phone-header:hover,
-.phone-header:focus,
+.icon:hover,
+.icon:focus,
+.contact:hover,
+.contact:focus,
 .agency-link:hover,
 .agency-link:focus,
 .contact-link:hover,
