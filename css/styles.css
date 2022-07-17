@@ -94,7 +94,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--black-color);
-  text-decoration: none;
   letter-spacing: 0.02em;
 }
 
@@ -108,22 +107,13 @@ body {
 
 
 .contact {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  color: var(--mediumgrey-color);
-  text-decoration: none;
+  color: #757575;
   letter-spacing: 0.02em;
 }
 
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-}
 
 .contact:hover,
 .contact:focus,
