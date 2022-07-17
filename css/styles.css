@@ -66,7 +66,6 @@ body {
   padding-left: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
 }
 
 .nav-list {
@@ -101,7 +100,10 @@ body {
 
 .contact-list {
   display: flex;
-  gap: 50px;
+  padding-left: 345px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 30px;
 }
 
 
