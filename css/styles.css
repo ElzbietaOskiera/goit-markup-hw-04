@@ -487,8 +487,9 @@ body {
   fill: var(--white-text);
   background-color: var(--blue-color);
   cursor: pointer;
-  text-decoration: none;
 }
+
+.socialmedia-link a {text-decoration: none;}
 
 /*customers*/
 
