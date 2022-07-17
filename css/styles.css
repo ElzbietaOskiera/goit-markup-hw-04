@@ -99,40 +99,35 @@ body {
 
 .contact-list {
   display: flex;
-  padding-left: 345px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  gap: 30px;
+  gap: 50px;
 }
 
 
-.email-header {
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: var(--contacts-header-color);
-  letter-spacing: 0.02em;
+.contact {
+    color: var(--grey);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142em;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.phone-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: var(--contacts-header-color);
-  letter-spacing: 0.02em;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
-
-.email-header:hover,
-.email-header:focus,
-.phone-header:hover,
-.phone-header:focus,
+.contact:hover,
+.contact:focus,
 .agency-link:hover,
 .agency-link:focus,
 .contact-link:hover,
@@ -149,12 +144,6 @@ body {
   fill: var(--blue-color);
 }
 
-.icon {
-    display: inline-block;
-    width: 10px;
-    height: 16px;
-
-}
 
 /*footer*/
 
