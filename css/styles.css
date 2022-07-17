@@ -243,19 +243,15 @@ body {
 
 .footer-socialmedia-items {
   display: flex;
-  padding-top: 20px;
-  gap: 10px;
+  width: 206px;
+  padding-top: 16px;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .footer-socialmedia-item {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--white-text);
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .footer-socialmedia-item:hover,
@@ -264,8 +260,16 @@ body {
   cursor: pointer;
 }
 
-.footer-socialmedia-link{fill: var(--white-text);}
-.footer-socialmedia-link:hover{background: var(--blue-color)}
+.footer-socialmedia-link:hover,
+.footer-socialmedia-link:focus {
+  background: var(--blue-color);
+  border-radius: 50%;
+}
+.footer-socialmedia-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .footer-socialmedia-icon{padding: 12px;
   fill: #fff;}
