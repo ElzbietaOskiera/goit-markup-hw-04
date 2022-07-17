@@ -115,9 +115,7 @@ body {
 }
 
 .header svg {
-  position: absolute;
   margin-right: 10px;
-  align-items: center;
 }
 
 .phone-header {
