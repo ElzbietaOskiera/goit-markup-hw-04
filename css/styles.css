@@ -107,18 +107,15 @@ body {
 
 
 .email-header {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   color: var(--contacts-header-color);
   letter-spacing: 0.02em;
 }
-
-.header svg {
-  margin-right: 10px;
-  display: inline-block;
-}
-
 
 .phone-header {
   font-weight: 500;
@@ -126,6 +123,18 @@ body {
   line-height: 1.1;
   color: var(--contacts-header-color);
   letter-spacing: 0.02em;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
 
