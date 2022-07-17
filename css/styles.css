@@ -562,7 +562,8 @@ font-weight: 700;
   cursor: pointer;
 }
 
-.cust-list-link{border-radius: 100%;
+.cust-list-link{;
+  border-radius: 4px;
   fill: #afb1b8;}
 .cust-list-link:hover{fill: var(--blue-color);}
 
