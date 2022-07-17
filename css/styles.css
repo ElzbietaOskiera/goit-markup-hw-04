@@ -489,6 +489,8 @@ body {
   background-color: var(--blue-color);
   cursor: pointer;
 }
+.team-socialmedia-item a
+{text-decoration: none;}
 
 /*customers*/
 
