@@ -108,6 +108,9 @@ body {
 .icon{fill: #757575
 }
 
+.icon:hover,
+.icon:focus {color: var(--blue-color)}
+
 .contact{color: #757575;
     text-decoration: none;
     font-style: normal;
