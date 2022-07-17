@@ -548,17 +548,11 @@ font-weight: 700;
 }
 
 .cust-list-link{
-
   display: flex;
-
-  margin: 0 15px;
   justify-content: center;
   align-items: center;
-
-
   width: 170px;
   height: 92px;
-  border-radius: 4px;
   fill: #afb1b8;}
 .cust-list-link:hover{fill: var(--blue-color);}
 
