@@ -479,34 +479,6 @@ font-weight: 700;
   color: #757575;;
 }
 
-
-
-.team-socialmedia-items {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
-
-.team-socialmedia-item {
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  fill: #afb1b8;
-}
-
-.team-socialmedia-item:hover,
-.team-socialmedia-item:focus {
-  fill: var(--white-text);
-  background-color: var(--blue-color);
-  cursor: pointer;
-}
-
-
 .team-socialmedia-items {
   list-style: none;
   display: flex;
