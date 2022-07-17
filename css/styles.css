@@ -105,6 +105,11 @@ body {
   gap: 30px;
 }
 
+.nav_icon {
+  display: flex;
+  align-items: center;
+}
+
 .email-header {
   font-weight: 500;
   font-size: 14px;
